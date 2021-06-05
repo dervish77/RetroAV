@@ -12,3 +12,20 @@ Repo contents:
 - src/           - source code for the RetroAV shield libary
 - tests/         - test programs for verifying shield hardware
 
+
+## Requirements
+
+* RetroAV shield shall support composite video output in Black&White using single RCA output jack.  
+  * It should support color output if possible.
+
+* RetroAV shield shall support PS2 keyboard input using standard PS2 connector.
+
+* RetroAV shield shall support analog audio output using RCA output jack.
+  * RetroAV shield
+
+
+
+## High Level Design
+
+
+
