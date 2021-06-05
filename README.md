@@ -49,20 +49,44 @@ Repo contents:
 
 ### SW Block Diagram
 
-(insert)
+![SW](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-SW-Block-Diagram.png?raw=true)
 
 
 ## Detailed Design
 
-### PS2 Keyboard Input
+### Hardware
+
+#### PS2 Keyboard Input
 
 tbd
 
-### Composite Video Output
+#### Composite Video Output
 
 tbd
 
-### Audio Output
+#### Audio Output
+
+tbd
+
+### Software
+
+#### Keyboard Task
+
+tbd
+
+#### Video Task
+
+tbd
+
+#### Audio Task
+
+tbd
+
+#### UI Manager
+
+tbd
+
+#### Arduino Interface
 
 tbd
 
