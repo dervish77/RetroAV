@@ -51,3 +51,18 @@ Repo contents:
 
 (insert)
 
+
+## Detailed Design
+
+### PS2 Keyboard Input
+
+tbd
+
+### Composite Video Output
+
+tbd
+
+### Audio Output
+
+tbd
+
