@@ -16,16 +16,19 @@ Repo contents:
 ## Requirements
 
 * RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
-  * It *should* support color output if possible.
+  * RetroAV *should* support color output if possible.
 
 * RetroAV shield **shall** support PS2 keyboard input using standard PS2 connector.
 
 * RetroAV shield **shall** support analog audio output using RCA output jack.
-  * RetroAV shield **shall** support at least one "voice" of audio output.
-  * RetroAV shield *should* support more than one "voice" of audio output if possible.
+  * RetroAV **shall** support at least one "voice" of audio output.
+  * RetroAV *should* support more than one "voice" of audio output if possible.
 
-
-
+* RetroAV code library **shall** minimally support a simple text terminal style of interface.
+  * RetroAV **shall** support the standard ascii character set.
+  * RetroAV **shall** support playing an audio tone for the bell character (i.e. control-G).
+  * RetroAV **shall** support interfacing via the Arduino serial monitor (i.e. echo characters to serial monitor).
+  * RetroAV *should* support interfacing via Arduino serial data pins (i.e. uart pins).
 
 
 ## High Level Design
