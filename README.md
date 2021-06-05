@@ -39,6 +39,10 @@ Repo contents:
 
 ## High Level Design
 
+### System Block Diagram
+
+(insert)
+
 ### HW Block Diagram
 
 (insert)
