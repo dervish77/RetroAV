@@ -41,7 +41,7 @@ Repo contents:
 
 ### System Block Diagram
 
-(insert)
+![system](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-System-Block-Diagram.png?raw=true)
 
 ### HW Block Diagram
 
