@@ -18,7 +18,8 @@ Repo contents:
 ## Requirements
 
 * RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
-  * RetroAV **shall** support at least TBD characters by TBD lines of video output. 
+  * RetroAV **shall** support at least 20 characters by 16 lines of video output. 
+  * RetroAV *should* support at least 40 characters by 24 lines of video output.
   * RetroAV *should* support color output if possible.
 
 * RetroAV shield **shall** support PS2 keyboard input using standard PS2 connector.
@@ -26,6 +27,10 @@ Repo contents:
 * RetroAV shield **shall** support analog audio output using RCA output jack.
   * RetroAV **shall** support at least one "voice" of audio output.
   * RetroAV *should* support more than one "voice" of audio output if possible.
+
+* RetroAV shield **shall** support a serial interface connector as a 4 pin header.
+  * RetroAV **shall** support a UART style serial interface.
+  * RetroAV *should* support an I2C style serial interface.
 
 * RetroAV code library **shall** minimally support a simple text terminal style of interface.
   * RetroAV **shall** support the standard ascii character set.
