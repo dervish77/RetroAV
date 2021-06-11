@@ -68,6 +68,10 @@ tbd
 
 tbd
 
+#### Serial Interface
+
+tbd
+
 ### Software
 
 #### Keyboard Task
@@ -79,6 +83,10 @@ tbd
 tbd
 
 #### Audio Task
+
+tbd
+
+#### Serial Task
 
 tbd
 
