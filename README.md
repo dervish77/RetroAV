@@ -64,7 +64,7 @@ Repo contents:
 
 #### PS2 Keyboard Input
 
-tbd
+The PS2 keyboard input is a standard 6-pin PS2 keyboard connector.  This connector provides 5V power and ground to the PS2 keyboard and accepts the clock and data signals from the keyboard.  Clock is connected to PIO pin 3 on an Arduino Uno (note this signal must be connected to an IRQ input or the keyboard interface library won't work).  Data is connected to PIO pin 4 on an Arduino Uno.  
 
 #### Composite Video Output
 
