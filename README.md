@@ -26,6 +26,7 @@ Repo contents:
   * RetroAV *should* support color output if possible.
 
 * RetroAV shield **shall** support analog audio output using RCA output jack.
+  * RetroAV **shall** support a 1 volt peak to peak output signal.
   * RetroAV **shall** support at least one "voice" of audio output.
   * RetroAV *should* support more than one "voice" of audio output if possible.
 
