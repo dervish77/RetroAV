@@ -8,10 +8,10 @@ It is assumed that the RetroAV shield will be used with an Arduino board (UNO bo
 
 Repo contents:
 
-* docs/          - reference docs for integrated packages
+* docs/          - system design docs, block diagrams, etc
 * examples/      - example code using the RetroAV shield
-* hw/            - hardware design docs and files
-* ref/           - reference documents
+* hw/            - hardware design files
+* ref/           - reference documents for integrated packages
 * src/           - source code for the RetroAV shield libary
 * tests/         - test programs for verifying shield hardware
 
