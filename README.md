@@ -11,18 +11,19 @@ Repo contents:
 * docs/          - reference docs for integrated packages
 * examples/      - example code using the RetroAV shield
 * hw/            - hardware design docs and files
+* ref/           - reference documents
 * src/           - source code for the RetroAV shield libary
 * tests/         - test programs for verifying shield hardware
 
 
 ## Requirements
 
+* RetroAV shield **shall** support PS2 keyboard input using standard PS2 connector.
+
 * RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
   * RetroAV **shall** support at least 20 characters by 16 lines of video output. 
   * RetroAV *should* support at least 40 characters by 24 lines of video output.
   * RetroAV *should* support color output if possible.
-
-* RetroAV shield **shall** support PS2 keyboard input using standard PS2 connector.
 
 * RetroAV shield **shall** support analog audio output using RCA output jack.
   * RetroAV **shall** support at least one "voice" of audio output.
