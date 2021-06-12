@@ -1,4 +1,16 @@
 TODO - RetroAV
+==============
 
-placeholder
+- Design and prototype PS2 interface
 
+- Design and prototype video interface
+
+- Design and prototype audio interface
+
+- Design and prototype serial interface
+
+- Design shield schematic
+
+- Design PCB
+
+- Develop RetroAV code library

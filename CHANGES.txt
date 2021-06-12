@@ -1,0 +1,16 @@
+CHANGES - RetroAV
+=================
+
+06/11/2021
+- updated requirements to add serial interface
+- updated block diagrams to add serial interface
+- worked on detailed design for PS2 interface
+- ordered PS2 connectors
+
+06/04/2021
+- documented requirements on README.md
+- documented high level design
+- completed block diagrams for system, hardware, and software
+
+06/02/2021
+- originated
