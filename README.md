@@ -65,15 +65,17 @@ Repo contents:
 
 #### PS2 Keyboard Input
 
-The PS2 keyboard input is a standard 6-pin PS2 keyboard connector.  This connector provides 5V power and ground to the PS2 keyboard and accepts the clock and data signals from the keyboard.  Clock is connected to PIO pin 3 on an Arduino Uno (note this signal must be connected to an IRQ input or the keyboard interface library won't work).  Data is connected to PIO pin 4 on an Arduino Uno.  
+The PS2 keyboard input is a standard 6-pin PS2 keyboard connector.  This connector provides 5V power and ground to the PS2 keyboard and accepts the clock and data signals from the keyboard.  Clock is connected to PIO pin 3 on an Arduino UNO (note this signal must be connected to an IRQ input or the keyboard interface library won't work).  Data is connected to PIO pin 4 on an Arduino UNO.  
+
+![PS2](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-PS2-HW-Diagram.png?raw=true)
 
 #### Composite Video Output
 
-tbd
+The Composite video output is a standard RCA connector.  This connector outputs the video signal and ground.  The output circuit takes in sync and video signals from the Arduino via series resistors.  This scheme is directly leveraging the TVout library method of creating composite video.  The sync signal uses pin 9 from an Arduino UNO.  The video signal uses pin 7 from an Arduino UNO.
 
 #### Audio Output
 
-tbd
+The Audio output is a standard RCA connector.  This connector outputs the mono audio signal and ground.  The output circuit takes in PWM audio from the Arduino via an RC circuit.  The PWM signal uses pin 11 from an Arduino UNO.
 
 #### Serial Interface
 
