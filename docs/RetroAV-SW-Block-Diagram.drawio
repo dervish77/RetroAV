@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2021-06-11T23:09:20.410Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="zZYvM3ydcmweUSGpCywC" version="14.7.7" type="google"><diagram id="rhDVx7w4nEG2jmcV0ZHz" name="Page-1">zVhdk5owFP01PNpBICw++rF1t+12OmN3q32LkJVMgTghKPbXN0gQSHCwjK68OLkn3+eem3tRM6dhOqdw678QDwWaoXupZs40wxgBwH8z4JADwDFyYEOxl0PDEljgv0iAukAT7KG4NpAREjC8rYMuiSLkshoGKSX7+rB3EtR33cINUoCFCwMV/YU95ueoA/QSf0J44xc7D3XRE8JisABiH3pkX4HMR82cUkJY3grTKQoy7gpe8nmfz/SeDkZRxC6ZMAvpYBbhtRMPlq87tHfA928DscoOBom48Oszt19gxC9GxcHZoWCDkiTyULagrpmTvY8ZWmyhm/Xuufs55rMw4NaQN9UDFrshylBagcSB54iEiNEDH1L02oI8oR6zsPelL0BBsF/xgyMwKNy/OS1dMsQbgqT/IMxQCPuKDmsCqacZdsB3n6w5bfYma/2E8Z/eUThsoHDYROEJvDqHpsLhOPEw6SmBoH8EWgqBb/yV7CuBZv8IBAqBCkso8sZZ/uCWG8A4xm6dGJRitsw4/ASEtar0zFJB79E4COMsmTFJqIvanx3k1bKVSnn1XWxgtMAoCiDDu3qOa2JZ7PCDYH7i0qPSq2xJfsqvIyZVU5K0zmlr+XkvFmKQbhBTFjr6/HTr7jKwryCDiB+hooPMXFX7SiUcrUNFF6p89BvJp6icjnS2Pyw9kZnl1HUGRh11BiTBAlmwN9bZw/10dlYzrVowe6UF25DeHDDqpgV7KGnh4WO14ChaGFMvwRHP3vpzxBB9z1LxvXO2ZUksGWrONvSPLLxHt4sh/WYx5PQqhoDkVKtr3rZH0kLyw3y9GIq++E+vkb3c/U5XO0x3k/lk0vDVukAUw2zetSpeJVQaBHA2egyjPXoaK95rRE8jY+on12XRE3NPsg518CWFjBQVrZXNeSncK6DkQliJg4sLYaclMjsHFDfLv5jy4eX/dObjPw==</diagram></mxfile>
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.0.6 Chrome/138.0.7204.100 Electron/37.2.3 Safari/537.36" version="28.0.6">
+  <diagram id="rhDVx7w4nEG2jmcV0ZHz" name="Page-1">
+    <mxGraphModel dx="995" dy="726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-1" value="UI Manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="1" vertex="1">
+          <mxGeometry x="160" y="360" width="520" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-2" value="Keyboard&lt;br&gt;Task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
+          <mxGeometry x="160" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-3" value="Audio&lt;br&gt;Task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
+          <mxGeometry x="560" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-4" value="Video&lt;br&gt;Task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
+          <mxGeometry x="360" y="160" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Dmr-Dnib8s-XUvew85NL-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="340" as="sourcePoint" />
+            <mxPoint x="221" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="Dmr-Dnib8s-XUvew85NL-1" target="Dmr-Dnib8s-XUvew85NL-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="590" as="sourcePoint" />
+            <mxPoint x="530" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-7" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="Dmr-Dnib8s-XUvew85NL-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="359" as="sourcePoint" />
+            <mxPoint x="610" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-8" value="Arduino Interface" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Dmr-Dnib8s-XUvew85NL-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Dmr-Dnib8s-XUvew85NL-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="440" as="sourcePoint" />
+            <mxPoint x="690" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJhHUn6XvZxYvirvBGBB-1" value="Serial Task" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" parent="1" vertex="1">
+          <mxGeometry x="220" y="520" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJhHUn6XvZxYvirvBGBB-3" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nJhHUn6XvZxYvirvBGBB-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="490" as="sourcePoint" />
+            <mxPoint x="280" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
