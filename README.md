@@ -73,9 +73,13 @@ The PS2 keyboard input is a standard 6-pin PS2 keyboard connector.  This connect
 
 The Composite video output is a standard RCA connector.  This connector outputs the video signal and ground.  The output circuit takes in sync and video signals from the Arduino via series resistors.  This scheme is directly leveraging the TVout library method of creating composite video.  The sync signal uses pin 9 from an Arduino UNO.  The video signal uses pin 7 from an Arduino UNO.
 
+![Video](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-Video-HW-Diagram.png?raw=true)
+
 #### Audio Output
 
 The Audio output is a standard RCA connector.  This connector outputs the mono audio signal and ground.  The output circuit takes in PWM audio from the Arduino via an RC circuit.  The PWM signal uses pin 11 from an Arduino UNO.
+
+![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-Audio-HW-Diagram.png?raw=true)
 
 #### Serial Interface
 
