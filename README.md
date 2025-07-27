@@ -90,6 +90,14 @@ The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The
 
 ### Software
 
+#### UI Manager
+
+tbd
+
+#### Arduino Interface
+
+tbd
+
 #### Keyboard Task
 
 tbd
@@ -103,14 +111,6 @@ tbd
 tbd
 
 #### Serial Task
-
-tbd
-
-#### UI Manager
-
-tbd
-
-#### Arduino Interface
 
 tbd
 
