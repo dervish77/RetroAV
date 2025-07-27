@@ -85,7 +85,7 @@ The Audio output is a standard RCA connector.  This connector outputs the mono a
 
 The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The 4 pin header connector outputs at TTL levels.  The DB9 connector outputs at compatible RS232 signal levels.
 
-![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-Audio-HW-Diagram.png?raw=true)
+![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-Serial-HW-Diagram.png?raw=true)
 
 
 ### Software
