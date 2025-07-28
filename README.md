@@ -20,7 +20,8 @@ Repo contents:
 
 * RetroAV shield **shall** support PS2 keyboard input using standard PS2 connector.
 
-* RetroAV shield **shall** support composite video output in Black&White using single RCA output jack.  
+* RetroAV shield **shall** support composite video output using single RCA output jack.  
+  * RetroAV **shall** support black & white video output.
   * RetroAV **shall** support at least 20 characters by 16 lines of video output. 
   * RetroAV *should* support at least 40 characters by 24 lines of video output.
   * RetroAV *should* support color output if possible.
@@ -30,9 +31,10 @@ Repo contents:
   * RetroAV **shall** support at least one "voice" of audio output.
   * RetroAV *should* support more than one "voice" of audio output if possible.
 
-* RetroAV shield **shall** support a serial interface connector as a 4 pin header.
+* RetroAV shield **shall** support a serial interface connector.
   * RetroAV **shall** support a UART style serial interface.
-  * RetroAV *should* support an I2C style serial interface.
+    * RetroAV **shall** support a UART interface via a 4 pin header.
+    * RetroAV *should* support a UART interface via a DB9 connector.
 
 * RetroAV code library **shall** minimally support a simple text terminal style of interface.
   * RetroAV **shall** support the standard ascii character set.
@@ -92,25 +94,25 @@ The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The
 
 #### UI Manager
 
-tbd
+The UI Manager coordinates the activities of all of the various tasks which make up the RetroAV system.
 
 #### Arduino Interface
 
-tbd
+The Arduino Interface provides an interface to the underlying standard Arduino software layers.
 
 #### Keyboard Task
 
-tbd
+The Keyboard Task receives character input from a PS2 keyboard and echoes those characters to the video output and to the serial interface.
 
 #### Video Task
 
-tbd
+The Video Task manages the display of characters and graphics to the composite video output.
 
 #### Audio Task
 
-tbd
+The Audio Task manages the output of analog audio via an RCA connector.
 
 #### Serial Task
 
-tbd
+The Serial Task manages the input and output of characters to a host computer or other serial capable device.
 
