@@ -22,8 +22,8 @@
 
 #define AUD_PWM			11
 
-#define SER_RXD			2
-#define SER_TXD			3	// conflicts with PS2 kbd clock!!
+#define SER_RXD			0
+#define SER_TXD			1	
 
 
 class RetroUI {
