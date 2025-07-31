@@ -93,7 +93,7 @@ The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The
 
 #### Shield Schematic
 
-![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/Schematic-RetroAV.png?raw=true)
+![Schematic](https://github.com/dervish77/RetroAV/blob/master/docs/Schematic_RetroAV.png?raw=true)
 
 ### Software
 
