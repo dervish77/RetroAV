@@ -89,6 +89,11 @@ The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The
 
 ![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/RetroAV-Serial-HW-Diagram.png?raw=true)
 
+### Schematic
+
+#### Shield Schematic
+
+![Audio](https://github.com/dervish77/RetroAV/blob/master/docs/Schematic-RetroAV.png?raw=true)
 
 ### Software
 
