@@ -107,17 +107,18 @@ The Arduino Interface provides an interface to the underlying standard Arduino s
 
 #### Keyboard Task
 
-The Keyboard Task receives character input from a PS2 keyboard and echoes those characters to the video output and to the serial interface.
+The Keyboard Task receives character input from a PS2 keyboard and echoes those characters to the video output and to the serial interface.  The Keyboard Task leverages the [PS2KeyAdvanced Arduino libary](https://github.com/techpaul/PS2KeyAdvanced) to receive characters from keys typed on a PS2 keyboard.
 
 #### Video Task
 
-The Video Task manages the display of characters and graphics to the composite video output.
+The Video Task manages the display of characters and graphics to the composite video output.  The Video Task leverages the [TVout Arduino library](https://github.com/Avamander/arduino-tvout) to generate composite video from two digital outputs, one for sync and on for video.
 
 #### Audio Task
 
-The Audio Task manages the output of analog audio via an RCA connector.
+The Audio Task manages the output of analog audio via an RCA connector.  The Audio Task leverages the [Tone Arduino library](https://github.com/bhagman/Tone) to generate PWM based audio from a single output pin.
 
 #### Serial Task
 
-The Serial Task manages the input and output of characters to a host computer or other serial capable device.
+The Serial Task manages the input and output of characters to a host computer or other serial capable device.  The Serial Task leverages the [Poll-Serial Arduino library](https://github.com/ercanersoy/Poll-Serial) to utilize the TxD and RxD pins on the Arduino to perform RS232 communication through a level converter.
+
 
