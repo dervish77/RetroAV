@@ -93,9 +93,9 @@ The Serial Interface uses both a 4 pin header and a standard DB9 connector.  The
 
 #### Shield Schematic
 
-![Schematic](https://github.com/dervish77/RetroAV/blob/master/docs/Schematic_RetroAV.png?raw=true)
+![Schematic](https://github.com/dervish77/RetroAV/blob/master/hw/Schematic_RetroAV.png?raw=true)
 
-Schematic as a [PDF file](https://github.com/dervish77/RetroAV/blob/master/docs/Schematic_RetroAV.pdf)
+Schematic as a [PDF file](https://github.com/dervish77/RetroAV/blob/master/hw/Schematic_RetroAV.pdf)
 
 ### Software
 
@@ -122,6 +122,7 @@ The Audio Task manages the output of analog audio via an RCA connector.  The Aud
 #### Serial Task
 
 The Serial Task manages the input and output of characters to a host computer or other serial capable device.  The Serial Task leverages the [Poll-Serial Arduino library](https://github.com/ercanersoy/Poll-Serial) to utilize the TxD and RxD pins on the Arduino to perform RS232 communication through a level converter.
+
 
 
 
