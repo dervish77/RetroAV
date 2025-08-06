@@ -48,11 +48,12 @@ void RetroUI::loop()
 		}
 		
 		// send key to serial
-		
+	}
+	else 
+	{
 		// if receive character from serial
 			// send character to video
 	}
-	
 }
 
 
