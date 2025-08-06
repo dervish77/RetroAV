@@ -12,7 +12,7 @@ Repo contents:
 * examples/      - example code using the RetroAV shield
 * hw/            - hardware design files
 * ref/           - reference documents for integrated packages
-* src/           - source code for the RetroAV shield libary
+* src/           - source code for the RetroAV shield library
 * tests/         - test programs for verifying shield hardware
 
 
@@ -140,3 +140,4 @@ The Serial Test verifies that the RS232 serial interface is working correctly.
 #### Video Test
 
 The Video Test verifies that the composite video output is working correctly.
+
