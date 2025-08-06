@@ -123,6 +123,20 @@ The Audio Task manages the output of analog audio via an RCA connector.  The Aud
 
 The Serial Task manages the input and output of characters to a host computer or other serial capable device.  The Serial Task leverages the [Poll-Serial Arduino library](https://github.com/ercanersoy/Poll-Serial) to utilize the TxD and RxD pins on the Arduino to perform RS232 communication through a level converter.
 
+### Tests
 
+#### Audio Test
 
+The Audio Test verifies that the analog audio output is working correctly.
 
+#### Keyboard Test
+
+The Keyboard Test verifies that the PS2 keyboard interface is working correctly.
+
+#### Serial Test
+
+The Serial Test verifies that the RS232 serial interface is working correctly.
+
+#### Video Test
+
+The Video Test verifies that the composite video output is working correctly.
