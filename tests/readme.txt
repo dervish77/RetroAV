@@ -9,5 +9,5 @@ keytest/	- test of PS2 keyboard input interface
 
 sertest/	- test of serial i/o interface
 
-tvtest/		- test of composite video output interface
+vidtest/	- test of composite video output interface
 
