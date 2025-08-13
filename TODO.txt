@@ -2,15 +2,22 @@ TODO - RetroAV
 ==============
 
 - Design and prototype PS2 interface
+-- design but not yet prototyped
 
 - Design and prototype video interface
+-- design but not yet prototyped
 
 - Design and prototype audio interface
+-- design but not yet prototyped
 
 - Design and prototype serial interface
+-- design but not yet prototyped
+
+- Develop RetroAV code library
+-- partially coded but not yet tested
 
 - Design shield schematic
+-- initial schematic design but not yet finalized (pending prototyping)
 
 - Design PCB
 
-- Develop RetroAV code library

@@ -1,6 +1,32 @@
 CHANGES - RetroAV
 =================
 
+08/11/2025
+- added code for vidtest
+- added code for keytest
+
+08/06/2025
+- modified shield code to perform serial check if no keyboard input
+- added makefile to drive build/compile via arduino-cli tool
+- added shield schematic EasyEDA project file
+- moved schematic files from "docs" to "hw"
+- added tests section to readme
+
+07/31/2025
+- added hookup diagram for MAX232 device
+- added initial RetroAV shield source code
+- added initial schematic for RetroAV shield
+
+07/28/2025
+- added serial interface diagrams
+- added reference docs for serial hookup, DB9 connectors, RS232
+- removed I2C requirement from serial interface
+
+07/23/2025
+- added interface diagrams for video, audio, keyboard
+- added reference docs for PS2, TVout
+- added MIT license
+
 06/11/2021
 - updated requirements to add serial interface
 - updated block diagrams to add serial interface
