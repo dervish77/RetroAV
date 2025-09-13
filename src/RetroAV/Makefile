@@ -13,13 +13,6 @@ FQBN = arduino:avr:uno
 
 PORT = /dev/ttyACM0
 
-#CC = cl65
-
-#CFLAGS  = -t c64 --create-dep $(<:.c=.d) -O
-#LDFLAGS = -t c64 -m $(TARGET).map
-
-#EMU = x64sc
-
 #------------------------------------------
 
 .SUFFIXES:
@@ -38,19 +31,6 @@ $(TARGET): $(SKETCH)
 
 install:
 	$(BUILD) upload -p $(PORT) --fqbn $(FQBN) $(SKETCH)
-
-#------------------------------------------
-
-#%.o: %.c
-#	$(CC) -c $(CFLAGS) -o $@ $<
-
-#$(TARGET): $(SOURCES:.c=.o)
-#	$(CC) $(LDFLAGS) -o $@ $^
-
-#test: run
-
-#run: all
-#	$(EMU) -autostart $(TARGET) &
 
 #------------------------------------------
 
