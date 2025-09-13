@@ -29,7 +29,7 @@ $(TARGET): $(SKETCH)
 
 #------------------------------------------
 
-install:
+install: all
 	$(BUILD) upload -p $(PORT) --fqbn $(FQBN) $(SKETCH)
 
 #------------------------------------------

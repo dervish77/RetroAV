@@ -1,0 +1,58 @@
+RetroAV Build and Usage Instructions
+====================================
+
+Be sure to consult the overview and design information found on the github repo.
+
+https://github.com/dervish77/RetroAV
+
+
+Directory structure:
+
+Makefile  - top level makefile
+docs/     - system design docs, block diagrams, etc
+examples/ - example code using the RetroAV shield
+hw/       - hardware design files
+ref/      - reference documents for integrated packages
+src/      - source code for the Stack CPU tools
+tests/    - test programs for validating shield
+
+
+BUILDING
+--------
+
+Prerequisites:
+
+  Requires Windows/Cygwin or Linux with Arduino-cli tools installed.
+
+
+Building shield code and the test programs:
+
+  From the top level directory type
+
+    $ make all
+
+  this will build all the sketches.
+
+
+Cleaning up the tree:
+
+  From the top level directory type
+  
+    $ make realclean
+
+  this will clean up all build objects.
+
+
+USING
+-----
+
+  TBD
+
+
+DEVELOPMENT
+-----------
+
+  TBD
+
+===========================
+EOF

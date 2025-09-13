@@ -21,7 +21,8 @@ default: all
 
 release: distro
 
-distro: install realclean tar
+distro: all realclean tar
+#distro: install realclean tar
 
 # build all executable files
 
@@ -86,6 +87,7 @@ tar: newversion
 	tar -rvf $(PKG_NAME).tar $(PKG_HOME)/hw/ ; \
 	tar -rvf $(PKG_NAME).tar $(PKG_HOME)/ref/ ; \
 	tar -rvf $(PKG_NAME).tar $(PKG_HOME)/src/ ; \
+	tar -rvf $(PKG_NAME).tar $(PKG_HOME)/tests/ ; \
 	gzip $(PKG_NAME).tar ; \
 	mv $(PKG_NAME).tar.gz $(PKG_NAME).tgz
 	-@echo "Distribution is ../$(PKG_NAME).tgz (also see ../$(PKG_NAME).txt)"

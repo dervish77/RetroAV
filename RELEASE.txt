@@ -1,0 +1,18 @@
+Release 0.1.0
+--------------
+
+Initial partially working version of RetroAV shield code.
+
+Features:
+- all sketches buildable by makefile via arduino-cli tool
+- reads input from PS2 keyboard
+- echoes characters from PS2 keyboard to video output
+- implemented KeyTest sketch
+- implemented VidTest sketch
+
+Bugs fixed:
+- perform serial check if no keyboard input
+
+Known issues:
+- audio output is not implemented
+- serial input/output is not implemented
