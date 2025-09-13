@@ -13,6 +13,9 @@
 #include "VideoTask.h"
 
 
+#define VERSION     "0.1.1"
+
+
 // define pins to use for RetroAV shield
 #define KBD_CLOCK		3
 #define KBD_DATA		4
