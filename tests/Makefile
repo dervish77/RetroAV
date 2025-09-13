@@ -7,8 +7,7 @@
 
 
 
-DIRS = keytest/KeyTest vidtest/VidTest 
-#DIRS = audiotest/AudioTest keytest/KeyTest sertest/SerTest vidtest/VidTest 
+DIRS = audiotest/AudioTest keytest/KeyTest sertest/SerTest vidtest/VidTest 
 
 
 

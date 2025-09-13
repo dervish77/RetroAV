@@ -1,9 +1,9 @@
 # makefile for Arduino project
 #
 
-SKETCH=RetroAV.ino
+SKETCH=AudioTest.ino
 
-TARGET=RetroAV
+TARGET=AudioTest
 
 #------------------------------------------
 
@@ -12,6 +12,8 @@ BUILD = arduino-cli
 FQBN = arduino:avr:uno
 
 PORT = /dev/ttyACM0
+
+ARDUINO = "/cygdrive/c/Utils/Arduino\ IDE/Arduino\ IDE.exe"
 
 #------------------------------------------
 
@@ -22,14 +24,15 @@ default: all
 
 all: $(TARGET)
 
-$(SKETCH): *.cpp *.h
+$(SKETCH): *.h
+#$(SKETCH): *.cpp *.h
 
 $(TARGET): $(SKETCH)
 	$(BUILD) compile --fqbn $(FQBN) --output-dir . --verbose $(SKETCH) 
 
 #------------------------------------------
 
-install: all
+install:
 	$(BUILD) upload -p $(PORT) --fqbn $(FQBN) $(SKETCH)
 
 #------------------------------------------
