@@ -1,6 +1,14 @@
 CHANGES - RetroAV
 =================
 
+09/13/2025
+- added top level makefile infrastructure
+- added top level 'make release' target
+- added build notes, release notes, fixed errors in makefiles
+- added templates for audio test and serial test
+- added 'make ide' targets
+- bumped version to 0.1.1
+
 08/11/2025
 - added code for vidtest
 - added code for keytest
